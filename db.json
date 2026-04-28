@@ -1,0 +1,194 @@
+{
+  "alumnos": [
+    {
+      "nombre": "Lucía",
+      "apellido": "Fernández",
+      "edad": 21,
+      "email": "lucia.fer@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "3"
+    },
+    {
+      "nombre": "Mateo",
+      "apellido": "García",
+      "edad": 23,
+      "email": "m.garcia@gmail.com",
+      "comision": "A",
+      "activo": false,
+      "id": "4"
+    },
+    {
+      "nombre": "Sofía",
+      "apellido": "Martínez",
+      "edad": 19,
+      "email": "sofia.mtz@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "5"
+    },
+    {
+      "nombre": "Julián",
+      "apellido": "Álvarez",
+      "edad": 20,
+      "email": "j.alvarez9@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "6"
+    },
+    {
+      "nombre": "Valentina",
+      "apellido": "Rodríguez",
+      "edad": 22,
+      "email": "valen.rod@gmail.com",
+      "comision": "A",
+      "activo": false,
+      "id": "7"
+    },
+    {
+      "nombre": "Nicolás",
+      "apellido": "Sánchez",
+      "edad": 21,
+      "email": "nico.sanchez@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "8"
+    },
+    {
+      "nombre": "Martina",
+      "apellido": "Romero",
+      "edad": 20,
+      "email": "m.romero@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "9"
+    },
+    {
+      "nombre": "Lucas",
+      "apellido": "Miguel",
+      "edad": 24,
+      "email": "lucas.miguel@gmail.com",
+      "comision": "B",
+      "activo": false,
+      "id": "10"
+    },
+    {
+      "nombre": "Camila",
+      "apellido": "Suárez",
+      "edad": 19,
+      "email": "cami.suarez@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "11"
+    },
+    {
+      "nombre": "Bautista",
+      "apellido": "Díaz",
+      "edad": 22,
+      "email": "bauti.diaz@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "12"
+    },
+    {
+      "nombre": "Elena",
+      "apellido": "Vázquez",
+      "edad": 21,
+      "email": "elena.v@gmail.com",
+      "comision": "A",
+      "activo": false,
+      "id": "13"
+    },
+    {
+      "nombre": "Tomás",
+      "apellido": "Castro",
+      "edad": 20,
+      "email": "tomi.castro@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "14"
+    },
+    {
+      "nombre": "Victoria",
+      "apellido": "Mendoza",
+      "edad": 23,
+      "email": "vic.mendoza@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "15"
+    },
+    {
+      "nombre": "Felipe",
+      "apellido": "Rojas",
+      "edad": 19,
+      "email": "felipe.rojas@gmail.com",
+      "comision": "A",
+      "activo": false,
+      "id": "16"
+    },
+    {
+      "nombre": "Delfina",
+      "apellido": "Ortiz",
+      "edad": 22,
+      "email": "delfi.ortiz@gmail.com",
+      "comision": "A",
+      "activo": true,
+      "id": "17"
+    },
+    {
+      "nombre": "Benjamín",
+      "apellido": "Silva",
+      "edad": 21,
+      "email": "benja.silva@gmail.com",
+      "comision": "B",
+      "activo": true,
+      "id": "18"
+    },
+    {
+      "nombre": "Abril",
+      "apellido": "Luna",
+      "edad": 20,
+      "email": "abril.luna@gmail.com",
+      "comision": "B",
+      "activo": true,
+      "id": "19"
+    },
+    {
+      "nombre": "Joaquín",
+      "apellido": "Pérez",
+      "edad": 24,
+      "email": "joaco.perez@gmail.com",
+      "comision": "B",
+      "activo": false,
+      "id": "20"
+    },
+    {
+      "nombre": "Micaela",
+      "apellido": "Herrera",
+      "edad": 19,
+      "email": "mica.herrera@gmail.com",
+      "comision": "B",
+      "activo": true,
+      "id": "21"
+    },
+    {
+      "nombre": "Santiago",
+      "apellido": "Medina",
+      "edad": 22,
+      "email": "santi.medina@gmail.com",
+      "comision": "C",
+      "activo": true,
+      "id": "22"
+    },
+    {
+      "nombre": "vicky",
+      "apellido": "peralta",
+      "edad": 20,
+      "email": "peraltavictoria239@gmail.com",
+      "comision": "a",
+      "activo": true,
+      "id": "5mBD-Bl6KKk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
