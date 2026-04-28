@@ -87,7 +87,7 @@
       "edad": 22,
       "email": "bauti.diaz@gmail.com",
       "comision": "A",
-      "activo": true,
+      "activo": false,
       "id": "12"
     },
     {
@@ -181,8 +181,8 @@
       "id": "22"
     },
     {
-      "nombre": "vicky",
-      "apellido": "peralta",
+      "nombre": "Vicky",
+      "apellido": "Peralta",
       "edad": 20,
       "email": "peraltavictoria239@gmail.com",
       "comision": "a",
