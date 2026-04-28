@@ -1,98 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
     <title>Academia CRUD</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header__title">
-            <h1>Academia CRUD</h1>
-            <h2>Comisión 
-                <select id="comision-id">
-                    <option value="a">A</option>
-                    <option value="b">B</option>
-                    <option value="c">C</option>
-            </select >
+      <div class="header__title">
+        <h1>Academia CRUD</h1>
+        <h2>
+          Comisión
+          <select id="comision-id">
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+          </select>
         </h2>
-        </div>
+      </div>
     </header>
 
     <main>
-        <div id="form-container" class="form__container hidden">
-            <div class="form__header">
-                <h3 id="form-title">Agregar Estudiante</h3>
-                <button id="btn-cancel" class="btn-icon" title="Cancelar">✕</button>
+      <div id="form-container" class="form__container hidden">
+        <div class="form__header">
+          <h3 id="form-title">Agregar Estudiante</h3>
+          <button id="btn-cancel" class="btn-icon" title="Cancelar">✕</button>
+        </div>
+        <form id="alumno-form">
+          <input type="hidden" id="alumno-id" />
+          <div class="form__grid">
+            <div class="form__field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" placeholder="Ana" />
             </div>
-            <form id="alumno-form">
-                <input type="hidden" id="alumno-id">
-                <div class="form__grid">
-                    <div class="form__field">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" placeholder="Ana">
-                    </div>
-                    <div class="form__field">
-                        <label for="apellido">Apellido</label>
-                        <input type="text" id="apellido" placeholder="Gomez">
-                    </div>
-                    <div class="form__field">
-                        <label for="edad">Edad</label>
-                        <input type="number" id="edad" placeholder="20" min="1" max="99">
-                    </div>
-                    <div class="form__field">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="ana@gmail.com">
-                    </div>
-                    <div class="form__field">
-                        <label for="comision">Comisión</label>
-                        <input type="text" id="comision" placeholder="A">
-                    </div>
-                    <div class="form__field form__field--checkbox">
-                        <label for="activo">
-                            
-                            Activo
-                            <input checked type="checkbox" id="activo">
-                        </label>
-                    </div>
-                </div>
-                <div class="form__actions">
-                    <button type="submit" id="btn-submit" class="form__button form__button--add">Guardar</button>
-                </div>
-            </form>
-        </div>
-
-        <div class="table__meta">
-            <span>Total: <strong id="total-alumnos">0</strong> alumnos</span>
-        </div>
-
-        <div class="container">
-            <div class="table__container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Apellido</th>
-                        <th>Edad</th>
-                        <th>Email</th>
-                        <th>Activo</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody id="tabla-alumnos">
-                    <!-- llenado por JS :P -->
-                </tbody>
-            </table>
+            <div class="form__field">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" placeholder="Gomez" />
             </div>
-            <button id="btn-toggle-form" class="button--add">+</button>
+            <div class="form__field">
+              <label for="edad">Edad</label>
+              <input type="number" id="edad" placeholder="20" min="1" max="99" />
+            </div>
+            <div class="form__field">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="ana@gmail.com" />
+            </div>
+            <div class="form__field">
+              <label for="comision">Comisión</label>
+              <input type="text" id="comision" placeholder="A" />
+            </div>
+            <div class="form__field form__field--checkbox">
+              <label for="activo">
+                Activo
+                <input checked type="checkbox" id="activo" />
+              </label>
+            </div>
+          </div>
+          <div class="form__actions">
+            <button type="submit" id="btn-submit" class="form__button form__button--add">Guardar</button>
+          </div>
+        </form>
+      </div>
 
+      <div class="table__meta">
+        <span>Total: <strong id="total-alumnos">0</strong> alumnos</span>
+      </div>
+
+      <div class="container">
+        <div class="table__container">
+          <table>
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Email</th>
+                <th>Activo</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tabla-alumnos">
+              <!-- llenado por JS :P -->
+            </tbody>
+          </table>
         </div>
+        <button id="btn-toggle-form" class="button--add">+</button>
+      </div>
     </main>
 
     <div id="toast" class="toast hidden"></div>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
